@@ -1,0 +1,172 @@
+*{
+    top: 0;
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:#24246b !important;
+}
+
+nav .nav-link {
+    color: #e8d5b5;;
+}
+
+nav .nav-link.active{
+    color: #79b5bd !important;
+}
+
+nav .nav-link:hover{
+    color: #79b5bd !important;
+}
+
+/* pagina home */
+section.home {
+    background-image: radial-gradient(circle, #9e3a37, #922548, #7c1b58, #5a1e65, #24246b);
+    height: 100vh;
+}
+
+.ilustracao-home {
+    padding: 1.5em;
+}
+
+.home .wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+}
+
+.home .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.home .content h1{
+    color: #4decc8;
+    font-size: 3em;
+}
+
+.home .content h2{
+    color: #ffb756;
+}
+
+.btn-matricula {
+    border-radius: 30px;
+    background: #e8d5b5;
+    box-shadow: 3px 1px 16px 0px #e8d5b5, 1px -2px 11px 0px #e8d5b5;;
+    padding: 5px;
+    border: none;
+    color: #24246b;
+    width: 200px;
+    height: 50px;
+    margin-top: 1em;
+    font-size: 1.2em;
+}
+
+.btn-matricula:hover{
+    background: #79b5bd;
+    box-shadow: 3px 1px 16px 0px #79b5bd, 1px -2px 11px 0px #79b5bd;
+}
+
+/* pagina cursos */
+section.cursos {
+    background: #e8d5b5;
+    height: 100vh;
+}
+
+.banner-cursos h1{
+    color: #842d76;
+    font-size: 3em;
+}
+
+.banner-cursos h2{
+    color: #f5785e;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content-banner {
+    box-shadow:
+    8.5px 2px 38.8px rgba(0, 0, 0, 0.025),
+    29.8px 7px 70.6px rgba(0, 0, 0, 0.043),
+    162px 38px 179px rgba(0, 0, 0, 0.07)
+  ;
+}
+.banner-cursos{
+    background-image: url(/img/student-class-looking-course.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 3em;
+}
+
+footer {
+    padding: 40px 0;
+    background-color: #24246b;
+    color:#e8d5b5 !important;
+}
+  
+footer ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+  
+footer li {
+    padding: 0 10px;
+}
+  
+footer ul a {
+    color:#e8d5b5;
+    text-decoration: none;
+    opacity: 0.8;
+}
+  
+footer ul a:hover {
+    opacity: 1;
+    color: #79b5bd !important;
+}
+  
+footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+  
+footer .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+  
+footer .social > a:hover {
+    color: #79b5bd;
+}
+  
+footer .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #e8d5b5;
+    margin-bottom: 0;
+}
