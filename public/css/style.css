@@ -3,6 +3,15 @@
     margin: 0;
     bottom: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 700;
 }
 
 nav {
@@ -62,13 +71,12 @@ section.home {
     border-radius: 30px;
     background: #e8d5b5;
     box-shadow: 3px 1px 16px 0px #e8d5b5, 1px -2px 11px 0px #e8d5b5;;
-    padding: 5px;
     border: none;
     color: #24246b;
     width: 200px;
     height: 50px;
-    margin-top: 1em;
-    font-size: 1.2em;
+    margin-top: 2em;
+    font-size: 1.1em;
 }
 
 .btn-matricula:hover{
@@ -79,7 +87,7 @@ section.home {
 /* pagina cursos */
 section.cursos {
     background: #e8d5b5;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .banner-cursos h1{
@@ -89,19 +97,29 @@ section.cursos {
 
 .banner-cursos h2{
     color: #f5785e;
-    background: rgba(0, 0, 0, 0.5);
+}
+
+.row.opcoes-cursos .card{
+    width: 30vw;
+}
+
+.card-title {
+    color: #64000C;
 }
 
 .content-banner {
     box-shadow:
     8.5px 2px 38.8px rgba(0, 0, 0, 0.025),
     29.8px 7px 70.6px rgba(0, 0, 0, 0.043),
-    162px 38px 179px rgba(0, 0, 0, 0.07)
-  ;
+    162px 38px 179px rgba(0, 0, 0, 0.07);
+    width: 60vw;
+    background: rgb(0 0 0 / 28%);
+    border-radius: 10px;
 }
+
 .banner-cursos{
     background-image: url(/img/student-class-looking-course.jpg);
-    height: 60vh;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
